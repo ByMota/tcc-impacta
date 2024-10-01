@@ -8,7 +8,7 @@ export default function AlunoDefault() {
         <Header/>
         <section className="bg-red-500 h-[96rem]">
         </section>
-        {/* <Footer/> */}
+        <Footer/>
       </main>
     </>
   )
