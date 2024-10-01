@@ -13,6 +13,7 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
+				'login-button': '#2c82c9',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -53,7 +54,10 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
+  		},
+			backgroundImage: {
+				'login-background': "url('/src/assets/banner-inscricao-pos-graduacao.png')"
+			}
   	}
   },
   plugins: [require("tailwindcss-animate")],
