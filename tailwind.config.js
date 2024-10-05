@@ -14,6 +14,7 @@ export default {
   		},
   		colors: {
 				'login-button': '#2c82c9',
+				'footer-color': '#3f3f3f',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
