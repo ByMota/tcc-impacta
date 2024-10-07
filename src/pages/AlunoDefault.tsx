@@ -19,7 +19,7 @@ export default function AlunoDefault() {
       <Header />
       <main className="">
         <UserInfo/>
-        <section className="px-5 pb-4 flex justify-center w-full bg-red-500">
+        <section className="px-5 pb-4 flex justify-center w-full">
           <AsideMenu/>
           <div className=" p-4 grid lg:grid-cols-3 lg:grid-rows-[25rem_6rem_6rem] lg:gap-2">
             <div className="flex flex-col gap-14">
