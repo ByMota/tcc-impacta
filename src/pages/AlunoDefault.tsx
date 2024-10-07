@@ -21,9 +21,9 @@ export default function AlunoDefault() {
         <UserInfo/>
         <section className="px-5 pb-4 flex justify-center w-full">
           <AsideMenu/>
-          <div className=" p-4 grid lg:grid-cols-3 lg:grid-rows-[25rem_6rem_6rem] lg:gap-2">
+          <div className="p-4 grid lg:grid-cols-3 lg:grid-rows-[25rem_6rem_6rem] lg:gap-2">
             <div className="flex flex-col gap-14">
-              <h4 className="uppercase text-[#002953] text-2xl font-bold font-eurostile-bold">
+              <h4 className="uppercase text-[#002953] text-2xl font-bold">
                 Mural de recados
               </h4>
               <Carousel orientation="vertical" className="lg:col-span-1 h-[200px] ">
@@ -63,7 +63,7 @@ export default function AlunoDefault() {
               </Carousel>
             </div>
             <div className="lg:col-span-2">
-              <img src={banner} alt="Banner saber em rede" className="max-w-2xl" />
+              <img src={banner} alt="Banner saber em rede" className="max-w-xl" />
             </div>
               <Card className="h-24 bg-[#225b79]">
                 <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
