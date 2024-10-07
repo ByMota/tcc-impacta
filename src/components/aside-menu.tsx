@@ -10,11 +10,11 @@ export default function AsideMenu(){
               <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
                 Carteirinha de estudante
               </li>
-              <NavLink to="/notas-faltas">
-                <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
-                    Secretaria online
+                <li className="border-l-2 border-solid border-[#002953] my-2 pl-2 text-current">
+                <NavLink to="/notas-faltas" className="text-current font-normal">
+                      Secretaria online
+                </NavLink>
                 </li>
-              </NavLink>
               <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
                 Financeiro online
               </li>
