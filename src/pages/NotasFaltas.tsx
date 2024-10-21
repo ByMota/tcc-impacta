@@ -9,7 +9,7 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb"
+} from "@/components/ui/breadcrumb";
 import {
   Table,
   TableBody,
@@ -17,11 +17,12 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
+} from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
+import { NavLink } from "react-router-dom";
 
 
-export default function(){
+export default function NotasFaltas(){
   return(
     <>
       <Header/>
@@ -39,7 +40,7 @@ export default function(){
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>
-                    <BreadcrumbPage>Breadcrumb</BreadcrumbPage>
+                    <BreadcrumbPage>Notas e Faltas</BreadcrumbPage>
                   </BreadcrumbItem>
                 </BreadcrumbList>
               </Breadcrumb>
@@ -57,7 +58,11 @@ export default function(){
               </TableHeader>
               <TableBody>
               <TableRow>
-                  <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button></TableCell>
+                  <TableCell className="font-medium">
+                    <NavLink to="/notas-faltas/boletim">
+                      <Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button>
+                    </NavLink>
+                  </TableCell>
                   <TableCell>2024/1</TableCell>
                   <TableCell>	Curso de Sistemas de Informação</TableCell>
                   <TableCell>	SI 8A NOITE</TableCell>
@@ -65,7 +70,9 @@ export default function(){
                   <TableCell className="text-right">Ativa</TableCell>
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button></TableCell>
+                  <TableCell className="font-medium"><NavLink to="/notas-faltas/boletim">
+                      <Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button>
+                    </NavLink></TableCell>
                   <TableCell>2024/2</TableCell>
                   <TableCell>	Curso de Sistemas de Informação</TableCell>
                   <TableCell>	SI 8A NOITE</TableCell>
@@ -73,7 +80,9 @@ export default function(){
                   <TableCell className="text-right">Concluída</TableCell>
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button></TableCell>
+                  <TableCell className="font-medium"><NavLink to="/notas-faltas/boletim">
+                      <Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button>
+                    </NavLink></TableCell>
                   <TableCell>2024/2</TableCell>
                   <TableCell>	Curso de Sistemas de Informação</TableCell>
                   <TableCell>	SI 8A NOITE</TableCell>
@@ -81,7 +90,9 @@ export default function(){
                   <TableCell className="text-right">Concluída</TableCell>
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button></TableCell>
+                  <TableCell className="font-medium"><NavLink to="/notas-faltas/boletim">
+                      <Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button>
+                    </NavLink></TableCell>
                   <TableCell>2024/2</TableCell>
                   <TableCell>	Curso de Sistemas de Informação</TableCell>
                   <TableCell>	SI 8A NOITE</TableCell>
@@ -89,7 +100,9 @@ export default function(){
                   <TableCell className="text-right">Concluída</TableCell>
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button></TableCell>
+                  <TableCell className="font-medium"><NavLink to="/notas-faltas/boletim">
+                      <Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button>
+                    </NavLink></TableCell>
                   <TableCell>2024/2</TableCell>
                   <TableCell>	Curso de Sistemas de Informação</TableCell>
                   <TableCell>	SI 8A NOITE</TableCell>
@@ -105,7 +118,9 @@ export default function(){
                   <TableCell className="text-right">Concluída</TableCell>
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button></TableCell>
+                  <TableCell className="font-medium"><NavLink to="/notas-faltas/boletim">
+                      <Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button>
+                    </NavLink></TableCell>
                   <TableCell>2024/2</TableCell>
                   <TableCell>	Curso de Sistemas de Informação</TableCell>
                   <TableCell>	SI 8A NOITE</TableCell>
@@ -113,7 +128,9 @@ export default function(){
                   <TableCell className="text-right">Concluída</TableCell>
                 </TableRow>
                 <TableRow>
-                  <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button></TableCell>
+                  <TableCell className="font-medium"><NavLink to="/notas-faltas/boletim">
+                      <Button className="bg-slate-200 text-black hover:text-white">Visualizar</Button>
+                    </NavLink></TableCell>
                   <TableCell>2024/2</TableCell>
                   <TableCell>	Curso de Sistemas de Informação</TableCell>
                   <TableCell>	SI 8A NOITE</TableCell>

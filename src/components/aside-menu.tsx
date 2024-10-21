@@ -5,7 +5,7 @@ export default function AsideMenu(){
     <div className="">
             <h4 className="uppercase text-[#002953] text-2xl font-bold font-eurostile-bold">
               acesso rápido
-            </h4>
+            </h4> 
             <ul>
               <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
                 Carteirinha de estudante
@@ -16,7 +16,9 @@ export default function AsideMenu(){
                 </NavLink>
                 </li>
               <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
-                Financeiro online
+                <NavLink to="/financeiro" className="text-current font-normal">
+                  Financeiro online
+                </NavLink>
               </li>
               <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
                 Biblioteca

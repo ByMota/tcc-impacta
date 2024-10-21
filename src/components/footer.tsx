@@ -5,8 +5,8 @@ import logoFaculdade from '../assets/logo-faculdade-branco.png'
 export function Footer() {
   return (
     <footer className="bg-footer-color w-full">
-      <main className="mx-12 py-5">
-        <section className="grid grid-cols-4 gap-4">
+      <main className="flex flex-col items-center justify-center w-1/3 sm:mx-12 py-5 md:mx-auto md:w-4/5">
+        <section className="sm:grid sm:grid-cols-4 sm:gap-4">
           <div>
             <img src={logoFaculdade} alt="Logo Impacta" className="w-44"/>
             <img src={qrcodeBanner} alt="QRCode consulta no e-MEC" className="w-auto"/>
@@ -33,7 +33,7 @@ export function Footer() {
             <li><span className="font-semibold">Secretaria de Pós Graduação:</span> De segunda a sexta - das 10h às 20h Sábado - Não teremos atendimento presencial</li>
           </ul>
         </section>
-        <section className="flex flex-col items-center gap-5">
+        <section className="sm:flex sm:flex-col sm:items-center sm:gap-5">
           <p className="text-[#eec457] text-xl uppercase">Siga a Impacta</p>
           <ul className="flex flex-row justify-center items-center gap-4">
             <li className="text-white"><FaFacebook /></li>
