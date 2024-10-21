@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export default function AsideMenu(){
+export function AsideMenu(){
   return(
     <div className="">
             <h4 className="uppercase text-[#002953] text-2xl font-bold font-eurostile-bold">
@@ -83,6 +83,6 @@ export default function AsideMenu(){
                 Acessar
               </li>
             </ul>
-          </div>
+    </div>
   )
 }

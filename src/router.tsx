@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import App from './App';
 import AlunoDefault from './pages/AlunoDefault';
 import NotasFaltas from './pages/NotasFaltas';
-import Financeiro from './pages/financeiro';
+import Financeiro from './pages/Financeiro';
 import Boletim from './pages/Boletim';
+import { Login } from './pages/Login';
 
 
 
@@ -11,7 +11,7 @@ import Boletim from './pages/Boletim';
 export default function AppRouter() {
   return (
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Login />} />
         <Route path="/aluno" element={<AlunoDefault />} />
         <Route path="/notas-faltas" element={<NotasFaltas />} />
         <Route path="/notas-faltas/boletim" element={<Boletim />} />

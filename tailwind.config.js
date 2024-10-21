@@ -13,8 +13,8 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
-				'login-button': '#2c82c9',
-				'footer-color': '#3f3f3f',
+  			'login-button': '#2c82c9',
+  			'footer-color': '#3f3f3f',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -54,11 +54,21 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
+  			},
+  			sidebar: {
+  				DEFAULT: 'hsl(var(--sidebar-background))',
+  				foreground: 'hsl(var(--sidebar-foreground))',
+  				primary: 'hsl(var(--sidebar-primary))',
+  				'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
+  				accent: 'hsl(var(--sidebar-accent))',
+  				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
+  				border: 'hsl(var(--sidebar-border))',
+  				ring: 'hsl(var(--sidebar-ring))',
   			}
   		},
-			backgroundImage: {
-				'login-background': "url('/src/assets/banner-inscricao-pos-graduacao.png')"
-			}
+  		backgroundImage: {
+  			'login-background': "url('/src/assets/banner-inscricao-pos-graduacao.png')",
+  		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
