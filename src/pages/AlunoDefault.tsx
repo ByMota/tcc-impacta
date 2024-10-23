@@ -12,6 +12,7 @@ import banner from "../assets/banner_saber_em_rede_.png"
 import { PiCheckBold, PiPaperclipBold, PiGearBold, PiUserBold, PiInfoBold, PiPhoneDisconnectBold   } from "react-icons/pi";
 import { AsideMenu } from "@/components/aside-menu";
 import { UserInfo } from "@/components/userInfo";
+import { NavLink } from "react-router-dom";
 
 export default function AlunoDefault() {
   return (
@@ -66,33 +67,40 @@ export default function AlunoDefault() {
               <img src={banner} alt="Banner saber em rede" className="max-w-xl" />
             </div>
               <Card className="h-24 bg-[#225b79]">
-                <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
-                  <PiCheckBold className="fill-slate-300 w-14 h-14"/>
-                  <div>
-                    <h4 className="uppercase font-semibold text-slate-300">Responda nossa pesquisa</h4>
-                    <p className="text-xs font-semibold text-slate-300">Desejamos conhecê-lo e aprimorar nossos serviços</p>
-                  </div>
-                </CardContent>
-              </Card>
-              <Card className="h-24 bg-[#225b79]">
+                <NavLink to="">
                   <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
-                    <PiPaperclipBold className="fill-slate-300 w-16 h-16"/>
+                    <PiCheckBold className="fill-slate-300 w-14 h-14"/>
                     <div>
-                      <h4 className="uppercase font-semibold text-slate-300">Ajude a melhorar a nossa faculdade</h4>
-                      <p className="text-xs font-semibold text-slate-300">Deixe Ideias, Sugestões e Críticas</p>
+                      <h4 className="uppercase font-semibold text-slate-300">Responda nossa pesquisa</h4>
+                      <p className="text-xs font-semibold text-slate-300">Desejamos conhecê-lo e aprimorar nossos serviços</p>
                     </div>
                   </CardContent>
+                </NavLink>
               </Card>
               <Card className="h-24 bg-[#225b79]">
-                <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
-                  <PiGearBold className="fill-slate-300 w-14 h-14"/>
-                  <div>
-                    <h4 className="uppercase font-semibold text-slate-300">Parceria microsoft imagine</h4>
-                    <p className="text-xs font-semibold text-slate-300">Clique e Saiba Mais</p>
-                  </div>
-                </CardContent>
+                  <NavLink to="">
+                    <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
+                        <PiPaperclipBold className="fill-slate-300 w-16 h-16"/>
+                        <div>
+                          <h4 className="uppercase font-semibold text-slate-300">Ajude a melhorar a nossa faculdade</h4>
+                          <p className="text-xs font-semibold text-slate-300">Deixe Ideias, Sugestões e Críticas</p>
+                        </div>
+                    </CardContent>
+                  </NavLink>
               </Card>
               <Card className="h-24 bg-[#225b79]">
+                <NavLink to="">
+                  <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
+                    <PiGearBold className="fill-slate-300 w-14 h-14"/>
+                    <div>
+                      <h4 className="uppercase font-semibold text-slate-300">Parceria microsoft imagine</h4>
+                      <p className="text-xs font-semibold text-slate-300">Clique e Saiba Mais</p>
+                    </div>
+                  </CardContent>
+                </NavLink>
+              </Card>
+              <Card className="h-24 bg-[#225b79]">
+              <NavLink to="">
                 <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
                   <PiUserBold className="fill-slate-300 w-14 h-14"/>
                   <div>
@@ -100,8 +108,10 @@ export default function AlunoDefault() {
                     <p className="text-xs font-semibold text-slate-300">Acesse núcleo de carreiras e fique por dentro das oportunidades profissionais.</p>
                   </div>
                 </CardContent>
+                </NavLink>
               </Card>
               <Card className="h-24 bg-[#225b79]">
+                <NavLink to="">
                   <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
                     <PiInfoBold  className="fill-slate-300 w-16 h-16"/>
                     <div>
@@ -109,15 +119,18 @@ export default function AlunoDefault() {
                       <p className="text-xs font-semibold text-slate-300">Deixe Ideias, Sugestões e Críticas</p>
                     </div>
                   </CardContent>
+                </NavLink>
               </Card>
               <Card className="h-24 bg-[#225b79]">
-                <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
-                  <PiPhoneDisconnectBold  className="fill-slate-300 w-14 h-14"/>
-                  <div>
-                    <h4 className="uppercase font-semibold text-slate-300">Parceria microsoft imagine</h4>
-                    <p className="text-xs font-semibold text-slate-300">Clique e Saiba Mais</p>
-                  </div>
-                </CardContent>
+                <NavLink to="">
+                  <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
+                    <PiPhoneDisconnectBold  className="fill-slate-300 w-14 h-14"/>
+                    <div>
+                      <h4 className="uppercase font-semibold text-slate-300">Parceria microsoft imagine</h4>
+                      <p className="text-xs font-semibold text-slate-300">Clique e Saiba Mais</p>
+                    </div>
+                  </CardContent>
+                </NavLink>
               </Card>
           </div>
         </section>
