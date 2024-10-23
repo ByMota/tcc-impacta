@@ -95,6 +95,7 @@ export default function Boletim(){
                 </div>
                 <div className="w-96 md:w-full overflow-x-auto">
                   <Table>
+                    <TableCaption>Observações: Média mínima para aprovação 6,0(seis) com 75% de frequência.</TableCaption>
                     <TableHeader>
                       <TableRow>
                         <TableHead>Disciplinas</TableHead>

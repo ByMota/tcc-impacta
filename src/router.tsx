@@ -4,6 +4,7 @@ import NotasFaltas from './pages/NotasFaltas';
 import Financeiro from './pages/Financeiro';
 import Boletim from './pages/Boletim';
 import { Login } from './pages/Login';
+import Requerimento from './pages/Requerimentos';
 
 
 
@@ -16,6 +17,7 @@ export default function AppRouter() {
         <Route path="/notas-faltas" element={<NotasFaltas />} />
         <Route path="/notas-faltas/boletim" element={<Boletim />} />
         <Route path="/financeiro" element={<Financeiro />} />
+        <Route path="/requerimento" element={<Requerimento />} />
       </Routes>
   );
 };

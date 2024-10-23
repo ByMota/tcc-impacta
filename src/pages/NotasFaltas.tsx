@@ -13,6 +13,7 @@ import {
 import {
   Table,
   TableBody,
+  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
@@ -48,6 +49,7 @@ export default function NotasFaltas(){
             </section>
             <div className="bg-gray-100 rounded-sm p-4">           
               <Table>
+
                 <TableHeader>
                   <TableRow>
                     <TableHead className="w-[100px]"></TableHead>

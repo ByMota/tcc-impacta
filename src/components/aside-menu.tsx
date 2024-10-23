@@ -39,7 +39,9 @@ export function AsideMenu(){
                 Ouvidoria
               </li>
               <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
-                Requerimentos
+                <NavLink to="/requerimento" className="text-current font-normal">
+                  Requerimentos
+                </NavLink>
               </li>
               <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
                 Contato dos professores
