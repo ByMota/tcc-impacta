@@ -33,7 +33,7 @@ export default function Requerimento(){
           <AsideMenu/>
           <div className="w-full">
             <section className="">
-              <h2 className="uppercase text-[#002953] text-3xl font-semibold">Notas e faltas</h2>
+              <h2 className="uppercase text-[#002953] text-3xl font-semibold">Requerimentos</h2>
               <Breadcrumb>
                 <BreadcrumbList>
                   <BreadcrumbItem>
@@ -47,7 +47,7 @@ export default function Requerimento(){
               </Breadcrumb>
             </section>
             <section className="bg-gray-100 rounded-sm p-4 flex flex-col items-center" style={{fontSize: `${fontSize}px`}}>
-              <div className="w-96">
+              <div className="w-[20rem]">
                 <h3 className="uppercase font-bold">Filtre por:</h3>
                 <div className="self-start flex flex-col gap-4">
                   <DatePickerWithRange/>

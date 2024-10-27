@@ -64,7 +64,7 @@ export default function Financeiro(){
               <span className="block w-full h-1 border-b border-solid" />
               
               {/* Tabela Responsiva */}
-              <div className="w-96 md:w-full overflow-x-auto mt-4">
+              <div className="w-[20rem] md:w-full overflow-x-auto mt-4">
                 <Table className="relative" style={{ fontSize: `${fontSize}px` }}>
                   <TableHeader>
                     <TableRow>

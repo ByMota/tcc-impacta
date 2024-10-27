@@ -48,7 +48,7 @@ export default function NotasFaltas(){
               </Breadcrumb>
             </section>
             <div className="bg-gray-100 rounded-sm p-4 w-full">
-              <div className="w-96 md:w-full">
+              <div className="w-[20rem] md:w-full">
                 <Table style={{ fontSize: `${fontSize}px` }}>
                   <TableHeader>
                     <TableRow>

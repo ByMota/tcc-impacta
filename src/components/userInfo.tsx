@@ -9,7 +9,7 @@ export function UserInfo(){
   <main className="mt-24 md:mr-1 flex flex-col gap-2" style={{fontSize: `${fontSize}px`}}>
     <section>
       <div 
-        className=" float-end flex justify-center items-center p-1 bg-gray-200 rounded-sm text-xs gap-2 border border-solid border-gray-500 "
+        className="sm:float-end flex flex-col sm:flex-row justify-center sm:items-center p-1 bg-gray-200 rounded-sm text-xs gap-2 border border-solid border-gray-500 "
         style={{ fontSize: `${fontSize}px` }}
       >
         <FaUserGraduate className="hidden md:block md:w-10 md:h-10" />

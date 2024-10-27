@@ -51,7 +51,7 @@ export default function Boletim(){
               </Breadcrumb>
             </section>
             <div className="bg-gray-100 rounded-sm p-4">
-              <section className="flex flex-col gap-4 w-96 md:w-full">
+              <section className="flex flex-col gap-4 w-[20rem] md:w-full">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
                   <p><span className="font-semibold">Nome:</span> Vinicius</p>
                   <p><span className="font-semibold">RA:</span> xxxxxxx</p>
