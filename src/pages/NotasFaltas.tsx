@@ -25,10 +25,11 @@ import { useFontSize } from "@/context/fontContext";
 
 
 export default function NotasFaltas(){
+  const { fontSize } = useFontSize();
   return(
     <>
       <Header/>
-      <main className={`${useFontSize}`}>
+      <main>
         <UserInfo/>
         <section className="px-5 pb-4 flex justify-center w-full ">
           <AsideMenu/>
@@ -47,9 +48,8 @@ export default function NotasFaltas(){
                 </BreadcrumbList>
               </Breadcrumb>
             </section>
-            <div className="bg-gray-100 rounded-sm p-4">           
-              <Table>
-
+            <div className="bg-gray-100 rounded-sm p-4 w-96 md:w-full">           
+              <Table style={{fontSize: `${fontSize}px`}}>
                 <TableHeader>
                   <TableRow>
                     <TableHead className="w-[100px]"></TableHead>

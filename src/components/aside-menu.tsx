@@ -1,8 +1,10 @@
+import { useFontSize } from "@/context/fontContext";
 import { NavLink } from "react-router-dom";
 
 export function AsideMenu(){
+  const { fontSize } = useFontSize();
   return(
-    <div className="">
+    <div className="" style={{fontSize: `${fontSize}px`}}>
             <h4 className="uppercase text-[#002953] text-2xl font-bold font-eurostile-bold">
               acesso rápido
             </h4> 

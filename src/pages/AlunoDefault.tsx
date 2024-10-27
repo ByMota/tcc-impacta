@@ -13,12 +13,14 @@ import { PiCheckBold, PiPaperclipBold, PiGearBold, PiUserBold, PiInfoBold, PiPho
 import { AsideMenu } from "@/components/aside-menu";
 import { UserInfo } from "@/components/userInfo";
 import { NavLink } from "react-router-dom";
+import { useFontSize } from "@/context/fontContext";
 
 export default function AlunoDefault() {
+  const { fontSize } = useFontSize();
   return (
     <>
       <Header />
-      <main className="">
+      <main className="" style={{fontSize: `${fontSize}px`}}>
         <UserInfo/>
         <section className="px-5 pb-4 flex justify-center w-full">
           <AsideMenu/>

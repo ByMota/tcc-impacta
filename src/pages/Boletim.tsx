@@ -27,7 +27,7 @@ export default function Boletim(){
   return (
     <>
       <Header/>
-      <main>
+      <main style={{fontSize: `${fontSize}px`}}>
         <UserInfo/>
         <section className="px-5 pb-4 flex justify-center w-full">
           <AsideMenu/>
@@ -61,7 +61,7 @@ export default function Boletim(){
                   <p><span className="font-semibold">Turma:</span> SI 8A NOITE</p>
                 </div>
                 <div className="w-96 md:self-end">
-                  <Table>
+                  <Table style={{fontSize: `${fontSize}px`}}>
                     <TableHeader>
                       <TableRow>
                         <TableHead></TableHead>
@@ -93,8 +93,8 @@ export default function Boletim(){
                     </TableBody>
                   </Table>
                 </div>
-                <div className="w-96 md:w-full overflow-x-auto">
-                  <Table>
+                <div className="w-96 md:w-full">
+                  <Table style={{fontSize: `${fontSize}px`}}>
                     <TableCaption>Observações: Média mínima para aprovação 6,0(seis) com 75% de frequência.</TableCaption>
                     <TableHeader>
                       <TableRow>

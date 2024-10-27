@@ -4,11 +4,14 @@ import { FaUserGraduate } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 
 export function UserInfo(){
-  const { increaseFontSize, decreaseFontSize } = useFontSize();
+  const { fontSize, increaseFontSize, decreaseFontSize } = useFontSize();
   return(
-  <main className="mt-24 md:mr-1 flex flex-col gap-2">
+  <main className="mt-24 md:mr-1 flex flex-col gap-2" style={{fontSize: `${fontSize}px`}}>
     <section>
-      <div className=" float-end flex justify-center items-center p-1 bg-gray-200 rounded-sm text-xs gap-2 border border-solid border-gray-500 ">
+      <div 
+        className=" float-end flex justify-center items-center p-1 bg-gray-200 rounded-sm text-xs gap-2 border border-solid border-gray-500 "
+        style={{ fontSize: `${fontSize}px` }}
+      >
         <FaUserGraduate className="w-10 h-10" />
         <div className="grid grid-cols-2 ">
           <p className="col-span-1">

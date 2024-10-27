@@ -1,33 +1,21 @@
 // FontSizeContext.tsx
-import { createContext, useState, ReactNode, useContext } from "react";
+import { createContext, useContext, useState, ReactNode } from "react";
 
-// Definindo a interface do contexto
 interface FontSizeContextProps {
   fontSize: number;
   increaseFontSize: () => void;
   decreaseFontSize: () => void;
 }
 
-// Criando o contexto com um valor padrão
-const FontSizeContext = createContext<FontSizeContextProps>({
-  fontSize: 16,
-  increaseFontSize: () => {},
-  decreaseFontSize: () => {},
-});
+// Criando o contexto com um valor padrão para evitar erros
+const FontSizeContext = createContext<FontSizeContextProps | undefined>(undefined);
 
 // Provedor de contexto
 export function FontSizeProvider({ children }: { children: ReactNode }) {
-  const [fontSize, setFontSize] = useState(16);
+  const [fontSize, setFontSize] = useState(16); // Tamanho de fonte inicial
 
-  const increaseFontSize = () => {
-    setFontSize((prevSize) => prevSize + 2);
-    console.log(fontSize)
-  };
-
-  const decreaseFontSize = () => {
-    setFontSize((prevSize) => (prevSize > 8 ? prevSize - 2 : prevSize));
-    console.log(fontSize)
-  };
+  const increaseFontSize = () => setFontSize((prev) => prev + 2);
+  const decreaseFontSize = () => setFontSize((prev) => (prev > 8 ? prev - 2 : prev));
 
   return (
     <FontSizeContext.Provider value={{ fontSize, increaseFontSize, decreaseFontSize }}>
@@ -36,7 +24,11 @@ export function FontSizeProvider({ children }: { children: ReactNode }) {
   );
 }
 
-// Custom Hook para utilizar o contexto
+// Custom hook para acessar o contexto
 export function useFontSize() {
-  return useContext(FontSizeContext);
+  const context = useContext(FontSizeContext);
+  if (!context) {
+    throw new Error("useFontSize deve ser usado dentro de um FontSizeProvider");
+  }
+  return context;
 }
