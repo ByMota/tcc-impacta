@@ -28,13 +28,13 @@ export default function Financeiro(){
   const { fontSize } = useFontSize();
   return (
     <>
-      <Header/>
+      <Header />
       <main>
-        <UserInfo/>
-        <section className="px-5 pb-4 flex justify-center w-full">
-          <AsideMenu/>
+        <UserInfo />
+        <section className="px-2 sm:px-5 pb-4 flex flex-col md:flex-row justify-center w-full">
+          <AsideMenu />
           <div className="w-full">
-            <section className="">
+            <section>
               <h2 className="uppercase text-[#002953] text-3xl font-semibold">Financeiro</h2>
               <Breadcrumb>
                 <BreadcrumbList>
@@ -48,16 +48,24 @@ export default function Financeiro(){
                 </BreadcrumbList>
               </Breadcrumb>
             </section>
-            <div className="mt-2 bg-gray-100 rounded-sm p-4" >
-              <ul className="list-disc text-sm pl-4" style={{fontSize: `${fontSize}px`}}>
-                <li>As informações contidas nesta página se destinam única e exclusivamente para fins informativos. Não tem validade nenhuma como documento ou comprovante de pagamento.</li>
-                <li>O boleto referente as mensalidades serão disponibilizados na última semana do mês antecedente ao vencimento da parcela.
-Exemplo: Boleto referente a parcela de setembro será disponibilizado na última semana do mês de agosto e assim sucessivamente.</li>
+            <div className="mt-2 bg-gray-100 rounded-sm p-4">
+              <ul className="list-disc text-sm pl-4" style={{ fontSize: `${fontSize}px` }}>
+                <li>
+                  As informações contidas nesta página se destinam única e exclusivamente para fins
+                  informativos. Não tem validade nenhuma como documento ou comprovante de pagamento.
+                </li>
+                <li>
+                  O boleto referente às mensalidades será disponibilizado na última semana do mês
+                  antecedente ao vencimento da parcela. Exemplo: Boleto referente à parcela de setembro
+                  será disponibilizado na última semana do mês de agosto e assim sucessivamente.
+                </li>
                 <li>O PRAZO DE BAIXA PARA OS PAGAMENTOS EFETUADOS É DE ATÉ 10 DIAS APÓS A DATA DO PAGAMENTO.</li>
               </ul>
-              <span className="block w-full h-1 border-b border-solid "/>
-              <div className="w-96 md:w-full">
-                <Table className="relative" style={{fontSize: `${fontSize}px`}}>
+              <span className="block w-full h-1 border-b border-solid" />
+              
+              {/* Tabela Responsiva */}
+              <div className="w-96 md:w-full overflow-x-auto mt-4">
+                <Table className="relative" style={{ fontSize: `${fontSize}px` }}>
                   <TableHeader>
                     <TableRow>
                       <TableHead>Código</TableHead>
@@ -152,7 +160,7 @@ Exemplo: Boleto referente a parcela de setembro será disponibilizado na última
           </div>
         </section>
       </main>
-      <Footer/>
+      <Footer />
     </>
   )
 }

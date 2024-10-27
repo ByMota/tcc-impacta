@@ -12,13 +12,13 @@ export function AsideMenu(){
               <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
                 Carteirinha de estudante
               </li>
-                <li className="border-l-2 border-solid border-[#002953] my-2 pl-2 text-current">
-                <NavLink to="/notas-faltas" className="text-current font-normal">
+                <li className="border-l-2 border-solid border-[#002953] my-2 pl-2 ">
+                <NavLink to="/notas-faltas" className=" font-normal">
                       Secretaria online
                 </NavLink>
                 </li>
               <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
-                <NavLink to="/financeiro" className="text-current font-normal">
+                <NavLink to="/financeiro" className=" font-normal">
                   Financeiro online
                 </NavLink>
               </li>
@@ -41,7 +41,7 @@ export function AsideMenu(){
                 Ouvidoria
               </li>
               <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
-                <NavLink to="/requerimento" className="text-current font-normal">
+                <NavLink to="/requerimento" className=" font-normal">
                   Requerimentos
                 </NavLink>
               </li>
