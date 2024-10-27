@@ -9,11 +9,11 @@ export function UserInfo(){
   <main className="mt-24 md:mr-1 flex flex-col gap-2" style={{fontSize: `${fontSize}px`}}>
     <section>
       <div 
-        className="sm:float-end flex flex-col sm:flex-row justify-center sm:items-center p-1 bg-gray-200 rounded-sm text-xs gap-2 border border-solid border-gray-500 "
+        className="sm:float-end flex flex-row justify-center sm:items-center p-1 bg-gray-200 rounded-sm text-xs gap-2 border border-solid border-gray-500 "
         style={{ fontSize: `${fontSize}px` }}
       >
         <FaUserGraduate className="hidden md:block md:w-10 md:h-10" />
-        <div className="grid grid-cols-2">
+        <div className="sm:grid grid-cols-2">
           <p className="col-span-1">
             Olá, <span className="font-semibold">Vinicius</span>
           </p>
@@ -24,7 +24,7 @@ export function UserInfo(){
             RA: <span className="font-semibold">xxxxxxx</span>
           </p>
         </div>
-        <div className="flex gap-1">
+        <div className="flex flex-col items-end sm:flex-row gap-1">
           <NavLink to="/aluno">
             <Button className="h-7 bg-slate-500 border-none text-xs">
               Área do aluno

@@ -25,14 +25,13 @@ export default function AlunoDefault() {
           <UserInfo />
           <section className="px-2 sm:px-5 pb-4 flex flex-col md:flex-row md:justify-center w-full">
             <AsideMenu/>
-            <div className="p-4 grid gap-4 sm:gap-2 w-full lg:grid-cols-3 lg:grid-rows-[25rem_6rem_6rem]">
-              {/* Mural de recados */}
+            <div className="w-[20rem] p-4 grid gap-4 sm:gap-2 sm:w-full lg:grid-cols-3 lg:grid-rows-[25rem_6rem_6rem]">
               <div className="flex flex-col gap-16 lg:gap-14 lg:col-span-1">
                 <h4 className="uppercase text-[#002953] text-xl sm:text-2xl font-bold text-center lg:text-left">
                   Mural de recados
                 </h4>
-                <Carousel orientation="vertical" className="mb-10 lg:col-span-1 h-[80px] md:h-[200px] ">
-                  <CarouselContent className="-mt-1 h-[100px] md:h-[200px]"> 
+                <Carousel orientation="vertical" className="mb-10 lg:col-span-1 h-[80px] w-[20rem] md:w-full md:h-[200px]">
+                  <CarouselContent className="md:-mt-1 h-[100px] md:h-[200px]"> 
                     <CarouselItem className="pt-1 md:basis-1/2">
                       <Card>
                         <CardContent className="flex items-center justify-start p-6">
@@ -69,7 +68,7 @@ export default function AlunoDefault() {
               </div>
 
               <div className="lg:col-span-2 flex justify-center sm:mt-14 lg:justify-start">
-                <img src={banner} alt="Banner saber em rede" className="max-w-sm md:max-w-xl" />
+                <img src={banner} alt="Banner saber em rede" className="max-w-80 md:max-w-xl" />
               </div>
 
               {/* <div className="grid  gap-4 w-full sm:w-auto"> */}
