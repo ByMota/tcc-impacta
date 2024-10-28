@@ -21,6 +21,7 @@ import {
 } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { useFontSize } from "@/context/fontContext";
+import { NavLink } from "react-router-dom";
 
 export default function Boletim(){
   const { fontSize } = useFontSize();
@@ -37,11 +38,11 @@ export default function Boletim(){
               <Breadcrumb>
                 <BreadcrumbList>
                   <BreadcrumbItem>
-                    <BreadcrumbLink href="/aluno">Home</BreadcrumbLink>
+                    <NavLink to="/aluno">Home</NavLink>
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>
-                    <BreadcrumbLink href="/notas-faltas">Notas e faltas</BreadcrumbLink>
+                    <NavLink to="/notas-faltas">Notas e faltas</NavLink>
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>

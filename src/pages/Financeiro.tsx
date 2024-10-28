@@ -23,6 +23,7 @@ import { IoMdPrint } from "react-icons/io";
 import { FaPrint } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa";
 import { useFontSize } from "@/context/fontContext";
+import { NavLink } from "react-router-dom";
 
 export default function Financeiro(){
   const { fontSize } = useFontSize();
@@ -39,7 +40,7 @@ export default function Financeiro(){
               <Breadcrumb>
                 <BreadcrumbList>
                   <BreadcrumbItem>
-                    <BreadcrumbLink href="/aluno">Home</BreadcrumbLink>
+                    <NavLink to="/aluno">Home</NavLink>
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>

@@ -18,6 +18,7 @@ import { useState } from "react";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { FaPaperclip } from "react-icons/fa6";
 import { useFontSize } from "@/context/fontContext";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -37,7 +38,7 @@ export default function Requerimento(){
               <Breadcrumb>
                 <BreadcrumbList>
                   <BreadcrumbItem>
-                    <BreadcrumbLink href="/aluno">Home</BreadcrumbLink>
+                    <NavLink to="/aluno">Home</NavLink>
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>
