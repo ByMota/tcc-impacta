@@ -5,7 +5,6 @@ import { UserInfo } from "@/components/userInfo";
 import {
   Breadcrumb,
   BreadcrumbItem,
-  BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
@@ -42,7 +41,7 @@ export default function Requerimento(){
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>
-                    <BreadcrumbLink href="/requerimento">Requerimento</BreadcrumbLink>
+                    Requerimento
                   </BreadcrumbItem>
                 </BreadcrumbList>
               </Breadcrumb>
