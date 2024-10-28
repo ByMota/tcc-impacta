@@ -26,12 +26,12 @@ export function UserInfo(){
         </div>
         <div className="flex flex-col items-end sm:flex-row gap-1">
             <Button className="h-7 bg-slate-500 border-none text-xs">
-            <NavLink to="/aluno">
+            <NavLink to="/aluno" className="text-current">
                 Área do aluno
             </NavLink>
             </Button>
             <Button className="h-7 bg-red-700 border-none text-xs hover:bg-red-800 ">
-            <NavLink to="/">
+            <NavLink to="/" className="text-current">
                 Sair
             </NavLink>
             </Button>
