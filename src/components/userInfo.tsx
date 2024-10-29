@@ -6,21 +6,21 @@ import { NavLink } from "react-router-dom";
 export function UserInfo(){
   const { fontSize, increaseFontSize, decreaseFontSize } = useFontSize();
   return(
-  <main className="mt-24 md:mr-1 flex flex-col gap-2" style={{fontSize: `${fontSize}px`}}>
+  <main className="sm:mt-24 md:mr-1 flex flex-col gap-2" style={{fontSize: `${fontSize}px`}}>
     <section>
       <div 
-        className="sm:float-end flex flex-row justify-center sm:items-center p-1 bg-gray-200 rounded-sm text-xs gap-2 border border-solid border-gray-500 "
+        className="§ float-end sm:float-end flex flex-row justify-center sm:items-center p-1 bg-gray-200 rounded-sm text-xs gap-2 border border-solid border-gray-500 "
         style={{ fontSize: `${fontSize}px` }}
       >
         <FaUserGraduate className="hidden md:block md:w-10 md:h-10" />
         <div className="sm:grid grid-cols-2">
-          <p className="col-span-1">
+          <p className="col-span-1 text-xs sm:text-base">
             Olá, <span className="font-semibold">Vinicius</span>
           </p>
-          <p>
+          <p className="text-xs sm:text-base">
             Curso: <span className="font-semibold">Sistema de informação</span>
           </p>
-          <p className="col-span-1">
+          <p className="col-span-1 text-xs sm:text-base">
             RA: <span className="font-semibold">xxxxxxx</span>
           </p>
         </div>
@@ -38,10 +38,10 @@ export function UserInfo(){
         </div>
       </div>
   	</section>
-      <div className="hidden md:flex justify-end gap-2">
-        <Button onClick={increaseFontSize}>A+</Button>
-        <Button onClick={decreaseFontSize}>A-</Button>
-      </div>
+    <section className="hidden md:flex justify-end gap-2">
+      <Button onClick={increaseFontSize}>A+</Button>
+      <Button onClick={decreaseFontSize}>A-</Button>
+    </section>
   </main>
   )
 }

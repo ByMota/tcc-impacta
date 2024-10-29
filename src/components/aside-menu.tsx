@@ -12,7 +12,7 @@ export function AsideMenu() {
       {/* Botão de hambúrguer no mobile */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="md:hidden p-2 focus:outline-none"
+        className="md:hidden p-2 focus:outline-none -top-10 relative sm:static" 
       >
         {isOpen ? <FaTimes className="text-white" size={24} /> : <FaBars className="text-white" size={24} />}
       </button>
