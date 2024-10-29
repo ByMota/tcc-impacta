@@ -1,6 +1,4 @@
 import { AsideMenu } from "@/components/aside-menu";
-import { Footer } from "@/components/footer";
-import { Header } from "@/components/header";
 import { UserInfo} from "@/components/userInfo";
 import {
   Breadcrumb,

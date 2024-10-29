@@ -1,5 +1,3 @@
-import { Footer } from "@/components/footer";
-import { Header } from "@/components/header";
 import {
   Carousel,
   CarouselContent,
@@ -67,77 +65,30 @@ export default function AlunoDefault() {
               </div>
 
               <div className="lg:col-span-2 flex justify-center sm:mt-14 lg:justify-start">
-                <img src={banner} alt="Banner saber em rede" className="max-w-80 md:max-w-xl" />
+                <img src={banner} alt="Faça parte do programa de embaixadores da impacta, é gratuito e exclusivo" className="max-w-80 md:max-w-xl" />
               </div>
-
-              {/* <div className="grid  gap-4 w-full sm:w-auto"> */}
-                <Card className="h-24 bg-[#225b79]">
-                  <NavLink to="">
+                <h3 className="sm:col-span-3 font-bold uppercase text-[#002953] text-xl sm:text-2xl">Mais acessados</h3>
+                <Card className="h-16 bg-[#225b79]">
+                  <NavLink to="/notas-faltas/boletim">
                     <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
-                      <PiCheckBold className="fill-slate-300 w-12 sm:w-14 h-12 sm:h-14"/>
-                      <div>
-                        <h4 className="uppercase font-semibold text-slate-300">Responda nossa pesquisa</h4>
-                        <p className="text-xs font-semibold text-slate-300">Desejamos conhecê-lo e aprimorar nossos serviços</p>
-                      </div>
+                        <h4 className="uppercase font-semibold text-slate-100">Boletim</h4>
                     </CardContent>
                   </NavLink>
                 </Card>
-                <Card className="h-24 bg-[#225b79]">
-                    <NavLink to="">
+                <Card className="h-16 bg-[#225b79]">
+                    <NavLink to="/financeiro">
                       <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
-                          <PiPaperclipBold className="fill-slate-300 w-12 sm:w-14 h-12 sm:h-14"/>
-                          <div>
-                            <h4 className="uppercase font-semibold text-slate-300">Ajude a melhorar a nossa faculdade</h4>
-                            <p className="text-xs font-semibold text-slate-300">Deixe Ideias, Sugestões e Críticas</p>
-                          </div>
+                            <h4 className="uppercase font-semibold text-slate-100">Financeiro</h4>
                       </CardContent>
                     </NavLink>
                 </Card>
-                <Card className="h-24 bg-[#225b79]">
-                  <NavLink to="">
+                <Card className="h-16 bg-[#225b79]">
+                  <NavLink to="/requerimento">
                     <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
-                      <PiGearBold className="fill-slate-300 w-12 sm:w-14 h-12 sm:h-14"/>
-                      <div>
-                        <h4 className="uppercase font-semibold text-slate-300">Parceria microsoft imagine</h4>
-                        <p className="text-xs font-semibold text-slate-300">Clique e Saiba Mais</p>
-                      </div>
+                        <h4 className="uppercase font-semibold text-slate-100">Requerimentos</h4>
                     </CardContent>
                   </NavLink>
                 </Card>
-                <Card className="h-24 bg-[#225b79]">
-                <NavLink to="">
-                  <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
-                    <PiUserBold className="fill-slate-300 w-12 sm:w-14 h-12 sm:h-14"/>
-                    <div>
-                      <h4 className="uppercase font-semibold text-slate-300">Núcleo de Carreiras</h4>
-                      <p className="text-xs font-semibold text-slate-300">Acesse núcleo de carreiras e fique por dentro das oportunidades profissionais.</p>
-                    </div>
-                  </CardContent>
-                  </NavLink>
-                </Card>
-                <Card className="h-24 bg-[#225b79]">
-                  <NavLink to="">
-                    <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
-                      <PiInfoBold  className="fill-slate-300 w-12 sm:w-14 h-12 sm:h-14"/>
-                      <div>
-                        <h4 className="uppercase font-semibold text-slate-300">Ajude a melhorar a nossa faculdade</h4>
-                        <p className="text-xs font-semibold text-slate-300">Deixe Ideias, Sugestões e Críticas</p>
-                      </div>
-                    </CardContent>
-                  </NavLink>
-                </Card>
-                <Card className="h-24 bg-[#225b79]">
-                  <NavLink to="">
-                    <CardContent className="flex justify-between items-start gap-2 py-2 px-4">
-                      <PiPhoneDisconnectBold  className="fill-slate-300 w-12 sm:w-14 h-12 sm:h-14"/>
-                      <div>
-                        <h4 className="uppercase font-semibold text-slate-300">Parceria microsoft imagine</h4>
-                        <p className="text-xs font-semibold text-slate-300">Clique e Saiba Mais</p>
-                      </div>
-                    </CardContent>
-                  </NavLink>
-                </Card>
-              {/* </div> */}
             </div>
           </section>
         </main>
