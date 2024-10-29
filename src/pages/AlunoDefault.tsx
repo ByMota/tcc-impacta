@@ -7,7 +7,6 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import banner from "../assets/banner_saber_em_rede_.png"
-import { PiCheckBold, PiPaperclipBold, PiGearBold, PiUserBold, PiInfoBold, PiPhoneDisconnectBold   } from "react-icons/pi";
 import { AsideMenu } from "@/components/aside-menu";
 import { UserInfo } from "@/components/userInfo";
 import { NavLink } from "react-router-dom";
