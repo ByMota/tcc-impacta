@@ -28,7 +28,6 @@ export default function Financeiro(){
   const { fontSize } = useFontSize();
   return (
     <>
-      <Header />
       <main>
         <UserInfo />
         <section className="px-2 sm:px-5 pb-4 flex flex-col md:flex-row justify-center w-full">
@@ -160,7 +159,6 @@ export default function Financeiro(){
           </div>
         </section>
       </main>
-      <Footer />
     </>
   )
 }

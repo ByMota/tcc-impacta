@@ -26,7 +26,6 @@ export default function NotasFaltas(){
   const { fontSize } = useFontSize();
   return(
     <>
-      <Header />
       <main>
         <UserInfo />
         <section className="px-2 sm:px-5 pb-4 flex flex-col md:flex-row md:justify-center w-full">
@@ -147,7 +146,7 @@ export default function NotasFaltas(){
           </div>
         </section>
       </main>
-      <Footer />
+
     </>
   )
 }

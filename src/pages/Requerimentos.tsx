@@ -26,8 +26,8 @@ export default function Requerimento(){
   const [visible, setVisible] = useState(false)
   return(
     <>
-      <Header/>
-      <main>
+
+      <main className="2xl:mx-auto 2xl:my-0 2xl:bg-red-500">
         <UserInfo/>
         <section className="px-2 sm:px-5 pb-4 flex flex-col md:flex-row justify-center w-full">
           <AsideMenu/>
@@ -36,7 +36,7 @@ export default function Requerimento(){
               <h2 className="uppercase text-[#002953] text-3xl font-semibold">Requerimentos</h2>
               <Breadcrumb>
                 <BreadcrumbList>
-                  <BreadcrumbItem>
+                  <BreadcrumbItem>  
                     <NavLink to="/aluno">Home</NavLink>
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
@@ -47,7 +47,7 @@ export default function Requerimento(){
               </Breadcrumb>
             </section>
             <section className="bg-gray-100 rounded-sm p-4 flex flex-col items-center" style={{fontSize: `${fontSize}px`}}>
-              <div className="w-[20rem]">
+              <div className="w-[20rem] md:w-full">
                 <h3 className="uppercase font-bold">Filtre por:</h3>
                 <div className="self-start flex flex-col gap-4">
                   <DatePickerWithRange/>
@@ -104,7 +104,7 @@ export default function Requerimento(){
           </div>
         </section>
       </main>
-      <Footer/>
+
     </>
   )
 }

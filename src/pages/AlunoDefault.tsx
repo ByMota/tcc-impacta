@@ -20,7 +20,6 @@ export default function AlunoDefault() {
   return (
     <>
       <div className="flex flex-col">
-        <Header />
         <main style={{ fontSize: `${fontSize}px` }}>
           <UserInfo />
           <section className="px-2 sm:px-5 pb-4 flex flex-col md:flex-row md:justify-center w-full">
@@ -142,7 +141,6 @@ export default function AlunoDefault() {
             </div>
           </section>
         </main>
-        <Footer />
       </div>
     </>
   )
