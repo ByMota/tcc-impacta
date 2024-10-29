@@ -25,7 +25,7 @@ export default function Requerimento(){
   return(
     <>
 
-      <main className="2xl:mx-auto 2xl:my-0 2xl:bg-red-500">
+      <main className="2xl:mx-auto 2xl:my-0">
         <UserInfo/>
         <section className="px-2 sm:px-5 pb-4 flex flex-col md:flex-row justify-center w-full">
           <AsideMenu/>
