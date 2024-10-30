@@ -50,7 +50,7 @@ export default function Boletim(){
             <div className="bg-gray-100 rounded-sm p-4">
               <section className="flex flex-col gap-4 w-[20rem] md:w-full">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
-                  <p><span className="font-semibold">Nome:</span> Vinicius</p>
+                  <p><span className="font-semibold">Nome:</span> Aluno da silva</p>
                   <p><span className="font-semibold">RA:</span> xxxxxxx</p>
                   <p><span className="font-semibold">Ano:</span> 2024/2</p>
                   <p><span className="font-semibold">Curso:</span> Sistema de informação</p>
@@ -153,59 +153,61 @@ export default function Boletim(){
                     </TableBody>
                   </Table>
                 </div>
-                <div>
-                  <p className="text-sm md:text-base">Legendas:</p>
-                  <ul className="w-full md:w-4/6 p-1 grid grid-cols-1 sm:grid-cols-2 text-xs md:text-sm border border-gray-300">
-                    <li>AP - Avaliações Parciais do Professor</li>
-                    <li>PR - Prova</li>
-                    <li>BO - Bônus</li>
-                    <li>MF - Média Final</li>
-                    <li>IF - Insatisfatório</li>
-                    <li> - Participante do PAI</li>
-                    <li>MAP - Média das Avaliações Parciais do Professor</li>
-                    <li>SUB - Prova Substitutiva</li>
-                    <li>TF - Total de Faltas</li>
-                    <li>SF - Satisfatório</li>
-                    <li> - Composição da Nota</li>
-                  </ul>
-                </div>
-                <div className="w-full md:w-96 overflow-x-auto">
-                  <p>Frequência:</p>
-                  <Table>
-                    <TableCaption>Quantidade de faltas permitidas por disciplina conforme carga horária</TableCaption>
-                    <TableHeader>
-                      <TableRow>
-                        <TableHead>Carga horária</TableHead>
-                        <TableHead>Faltas</TableHead>
-                      </TableRow>
-                    </TableHeader>
-                    <TableBody>
-                      <TableRow>
-                        <TableCell>36</TableCell>
-                        <TableCell>9</TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell>40</TableCell>
-                        <TableCell>10</TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell>72</TableCell>
-                        <TableCell>18</TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell>80</TableCell>
-                        <TableCell>20</TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell>120</TableCell>
-                        <TableCell>30</TableCell>
-                      </TableRow>
-                      <TableRow>
-                        <TableCell>160</TableCell>
-                        <TableCell>40</TableCell>
-                      </TableRow>
-                    </TableBody>
-                  </Table>
+                <div className="flex flex-col-reverse gap-4 md:flex-row md:justify-between ">
+                  <div className="md:w-96 ">
+                    <p className="text-sm md:text-base">Legendas:</p>
+                    <ul className="w-full md:w-4/6 p-1 grid grid-cols-1 sm:grid-cols-2 text-xs md:text-sm border border-gray-300">
+                      <li>AP - Avaliações Parciais do Professor</li>
+                      <li>PR - Prova</li>
+                      <li>BO - Bônus</li>
+                      <li>MF - Média Final</li>
+                      <li>IF - Insatisfatório</li>
+                      <li> - Participante do PAI</li>
+                      <li>MAP - Média das Avaliações Parciais do Professor</li>
+                      <li>SUB - Prova Substitutiva</li>
+                      <li>TF - Total de Faltas</li>
+                      <li>SF - Satisfatório</li>
+                      <li> - Composição da Nota</li>
+                    </ul>
+                  </div>
+                   <div className="md:w-96 overflow-x-auto ">
+                    <p>Frequência:</p>
+                    <Table>
+                      <TableCaption>Quantidade de faltas permitidas por disciplina conforme carga horária</TableCaption>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead>Carga horária</TableHead>
+                          <TableHead>Faltas</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        <TableRow>
+                          <TableCell>36</TableCell>
+                          <TableCell>9</TableCell>
+                        </TableRow>
+                        <TableRow>
+                          <TableCell>40</TableCell>
+                          <TableCell>10</TableCell>
+                        </TableRow>
+                        <TableRow>
+                          <TableCell>72</TableCell>
+                          <TableCell>18</TableCell>
+                        </TableRow>
+                        <TableRow>
+                          <TableCell>80</TableCell>
+                          <TableCell>20</TableCell>
+                        </TableRow>
+                        <TableRow>
+                          <TableCell>120</TableCell>
+                          <TableCell>30</TableCell>
+                        </TableRow>
+                        <TableRow>
+                          <TableCell>160</TableCell>
+                          <TableCell>40</TableCell>
+                        </TableRow>
+                      </TableBody>
+                    </Table>
+                  </div>
                 </div>
               </section>
             </div>

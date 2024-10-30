@@ -15,7 +15,7 @@ export function UserInfo(){
         <FaUserGraduate className="hidden md:block md:w-10 md:h-10" />
         <div className="sm:grid grid-cols-2">
           <p className="col-span-1 text-xs sm:text-base">
-            Olá, <span className="font-semibold">Vinicius</span>
+            Olá, <span className="font-semibold">Aluno</span>
           </p>
           <p className="text-xs sm:text-base">
             Curso: <span className="font-semibold">Sistema de informação</span>

@@ -86,7 +86,7 @@ export default function Requerimento(){
                           <TableRow>
                             <TableCell>12345</TableCell>
                             <TableCell>12/10/2024</TableCell>
-                            <TableCell>Vinicius Camargo Mota Morici</TableCell>
+                            <TableCell>Aluno da Silva</TableCell>
                             <TableCell>Entrega de Estágio Supervisionado</TableCell>
                             <TableCell>Concluído</TableCell>
                             <TableCell><Button className="bg-slate-200 text-black hover:text-white">Abrir</Button></TableCell>
