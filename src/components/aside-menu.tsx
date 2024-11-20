@@ -32,12 +32,12 @@ export function AsideMenu() {
             Carteirinha de estudante
           </li>
             <li className="border-l-2 border-solid border-[#002953] my-2 pl-2 ">
-            <NavLink to="/notas-faltas" className=" font-normal">
+            <NavLink to="/notas-faltas" className=" font-normal text-black">
                   Secretaria online
             </NavLink>
             </li>
           <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
-            <NavLink to="/financeiro" className=" font-normal">
+            <NavLink to="/financeiro" className=" font-normal text-black">
               Financeiro online
             </NavLink>
           </li>
@@ -60,7 +60,7 @@ export function AsideMenu() {
             Ouvidoria
           </li>
           <li className="border-l-2 border-solid border-[#002953] my-2 pl-2">
-            <NavLink to="/requerimento" className=" font-normal">
+            <NavLink to="/requerimento" className=" font-normal text-black">
               Requerimentos
             </NavLink>
           </li>

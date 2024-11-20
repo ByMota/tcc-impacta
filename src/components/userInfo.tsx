@@ -25,16 +25,18 @@ export function UserInfo(){
           </p>
         </div>
         <div className="flex flex-col items-end sm:flex-row gap-1">
-            <Button className="h-7 bg-slate-500 border-none text-xs">
-            <NavLink to="/aluno" className="text-current">
-                Área do aluno
-            </NavLink>
-            </Button>
-            <Button className="h-7 bg-red-700 border-none text-xs hover:bg-red-800 ">
-            <NavLink to="/" className="text-current">
-                Sair
-            </NavLink>
-            </Button>
+          <NavLink
+              to="/aluno"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground px-4 py-2 h-7 bg-slate-500 border-none text-xs hover:bg-slate-600 hover:text-white"
+            >
+              Área do aluno
+          </NavLink>
+          <NavLink
+            to="/"
+            className="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground px-4 py-2 h-7 bg-red-700 border-none text-xs hover:bg-red-800 hover:text-white"
+          >
+            Sair
+          </NavLink>
         </div>
       </div>
   	</section>

@@ -4,6 +4,7 @@ import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbList,
+  BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { DatePickerWithRange } from "@/components/ui/date-picker";
@@ -35,11 +36,11 @@ export default function Requerimento(){
               <Breadcrumb>
                 <BreadcrumbList>
                   <BreadcrumbItem>  
-                    <NavLink to="/aluno">Home</NavLink>
+                    <NavLink to="/aluno" className="text-blue-800">Home</NavLink>
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>
-                    Requerimento
+                    <BreadcrumbPage>Requerimento</BreadcrumbPage>
                   </BreadcrumbItem>
                 </BreadcrumbList>
               </Breadcrumb>
@@ -51,21 +52,21 @@ export default function Requerimento(){
                   <DatePickerWithRange/>
                   <RadioGroup defaultValue="option-one" >
                     <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="option-one" id="option-one"/>
+                      <RadioGroupItem value="option-one" id="option-one" aria-label="Listar Pendentes"/>
                       <Label htmlFor="option-one" style={{fontSize: `${fontSize}px`}}>Listar Pendentes</Label>
                     </div>
                     <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="option-two" id="option-two" />
-                      <Label htmlFor="option-two" style={{fontSize: `${fontSize}px`}}>Listar prontos</Label>
+                      <RadioGroupItem value="option-two" id="option-two" aria-label="Listar Prontos"/>
+                      <Label htmlFor="option-two" style={{fontSize: `${fontSize}px`}}>Listar Prontos</Label>
                     </div>
                     <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="option-three" id="option-three" />
-                      <Label htmlFor="option-three" style={{fontSize: `${fontSize}px`}}>Listar indeferidos</Label>
+                      <RadioGroupItem value="option-three" id="option-three" aria-label="Listar Indeferidos"/>
+                      <Label htmlFor="option-three" style={{fontSize: `${fontSize}px`}}>Listar Indeferidos</Label>
                     </div>
                   </RadioGroup>
                   <div className="flex gap-4">
                     <Button onClick={() => setVisible(!visible)}>Listar</Button>
-                    <Button className="bg-green-500 hover:bg-green-700">Nova solicitação</Button>
+                    <Button className="bg-blue-600 hover:bg-blue-700">Nova solicitação</Button>
                   </div>
                 </div>
                 <div className="mt-4">
@@ -90,7 +91,7 @@ export default function Requerimento(){
                             <TableCell>Entrega de Estágio Supervisionado</TableCell>
                             <TableCell>Concluído</TableCell>
                             <TableCell><Button className="bg-slate-200 text-black hover:text-white">Abrir</Button></TableCell>
-                            <TableCell><Button className="bg-slate-200 text-black hover:text-white"><FaPaperclip /></Button></TableCell>
+                            <TableCell><Button className="bg-slate-200 text-black hover:text-white" aria-label="Anexar documento"><FaPaperclip />  <span className="sr-only">Anexar documento</span></Button></TableCell>
                           </TableRow>
                         </TableBody>
                       </Table>

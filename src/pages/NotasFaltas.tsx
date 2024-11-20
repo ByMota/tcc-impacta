@@ -34,7 +34,7 @@ export default function NotasFaltas(){
               <Breadcrumb>
                 <BreadcrumbList>
                   <BreadcrumbItem>
-                    <NavLink to="/aluno">Home</NavLink>
+                    <NavLink to="/aluno" className="text-blue-800">Home</NavLink>
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>

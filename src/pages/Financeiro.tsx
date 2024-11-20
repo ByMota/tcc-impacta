@@ -36,7 +36,7 @@ export default function Financeiro(){
               <Breadcrumb>
                 <BreadcrumbList>
                   <BreadcrumbItem>
-                    <NavLink to="/aluno">Home</NavLink>
+                    <NavLink to="/aluno" className="text-blue-800">Home</NavLink>
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>
@@ -87,8 +87,18 @@ export default function Financeiro(){
                         <TableCell className="my-0 mx-auto m-0"><FaCheck /></TableCell>
                         <TableCell>R$ 177,72</TableCell>
                         <TableCell>27/09/2024</TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><IoMdPrint /></Button></TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><FaPrint /></Button></TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir documento">
+                            <IoMdPrint />
+                            <span className="sr-only">Imprimir documento</span>
+                          </Button>
+                        </TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir relatório">
+                            <FaPrint />
+                            <span className="sr-only">Imprimir relatório</span>
+                          </Button>
+                        </TableCell>
                     </TableRow>
                     <TableRow>
                         <TableCell>1495309</TableCell>
@@ -99,8 +109,18 @@ export default function Financeiro(){
                         <TableCell><FaCheck /></TableCell>
                         <TableCell>R$ 177,72</TableCell>
                         <TableCell>27/09/2024</TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><IoMdPrint /></Button></TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><FaPrint /></Button></TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir documento">
+                            <IoMdPrint />
+                            <span className="sr-only">Imprimir documento</span>
+                          </Button>
+                        </TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir relatório">
+                            <FaPrint />
+                            <span className="sr-only">Imprimir relatório</span>
+                          </Button>
+                        </TableCell>
                     </TableRow>
                     <TableRow>
                         <TableCell>1495308</TableCell>
@@ -111,8 +131,18 @@ export default function Financeiro(){
                         <TableCell><FaCheck /></TableCell>
                         <TableCell>R$ 177,72</TableCell>
                         <TableCell>27/09/2024</TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><IoMdPrint /></Button></TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><FaPrint /></Button></TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir documento">
+                            <IoMdPrint />
+                            <span className="sr-only">Imprimir documento</span>
+                          </Button>
+                        </TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir relatório">
+                            <FaPrint />
+                            <span className="sr-only">Imprimir relatório</span>
+                          </Button>
+                        </TableCell>
                     </TableRow>
                     <TableRow>
                         <TableCell>1484817</TableCell>
@@ -123,8 +153,18 @@ export default function Financeiro(){
                         <TableCell><FaCheck /></TableCell>
                         <TableCell>R$ 177,72</TableCell>
                         <TableCell>27/09/2024</TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><IoMdPrint /></Button></TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><FaPrint /></Button></TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir documento">
+                            <IoMdPrint />
+                            <span className="sr-only">Imprimir documento</span>
+                          </Button>
+                        </TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir relatório">
+                            <FaPrint />
+                            <span className="sr-only">Imprimir relatório</span>
+                          </Button>
+                        </TableCell>
                     </TableRow>
                     <TableRow>
                         <TableCell>1428274</TableCell>
@@ -135,8 +175,18 @@ export default function Financeiro(){
                         <TableCell><FaCheck /></TableCell>
                         <TableCell>R$ 177,72</TableCell>
                         <TableCell>27/09/2024</TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><IoMdPrint /></Button></TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><FaPrint /></Button></TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir documento">
+                            <IoMdPrint />
+                            <span className="sr-only">Imprimir documento</span>
+                          </Button>
+                        </TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir relatório">
+                            <FaPrint />
+                            <span className="sr-only">Imprimir relatório</span>
+                          </Button>
+                        </TableCell>
                     </TableRow>
                     <TableRow>
                         <TableCell>1495310</TableCell>
@@ -147,8 +197,18 @@ export default function Financeiro(){
                         <TableCell><FaCheck /></TableCell>
                         <TableCell>R$ 177,72</TableCell>
                         <TableCell>27/09/2024</TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><IoMdPrint /></Button></TableCell>
-                        <TableCell className="font-medium"><Button className="bg-slate-200 text-black hover:text-white"><FaPrint /></Button></TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir documento">
+                            <IoMdPrint />
+                            <span className="sr-only">Imprimir documento</span>
+                          </Button>
+                        </TableCell>
+                        <TableCell className="font-medium">
+                          <Button className="bg-slate-200 text-black hover:text-white" aria-label="Imprimir relatório">
+                            <FaPrint />
+                            <span className="sr-only">Imprimir relatório</span>
+                          </Button>
+                        </TableCell>
                     </TableRow>
                   </TableBody>
                 </Table>

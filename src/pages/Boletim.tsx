@@ -34,15 +34,15 @@ export default function Boletim(){
               <Breadcrumb>
                 <BreadcrumbList>
                   <BreadcrumbItem>
-                    <NavLink to="/aluno">Home</NavLink>
+                    <NavLink to="/aluno" className="text-blue-800">Home</NavLink>
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>
-                    <NavLink to="/notas-faltas">Notas e faltas</NavLink>
+                    <NavLink to="/notas-faltas" className="text-blue-800">Notas e faltas</NavLink>
                   </BreadcrumbItem>
                   <BreadcrumbSeparator />
                   <BreadcrumbItem>
-                    <BreadcrumbPage>Financeiro</BreadcrumbPage>
+                    <BreadcrumbPage>Boletim</BreadcrumbPage>
                   </BreadcrumbItem>
                 </BreadcrumbList>
               </Breadcrumb>
