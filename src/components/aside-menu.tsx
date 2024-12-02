@@ -11,6 +11,7 @@ export function AsideMenu() {
     <div>
       {/* Botão de hambúrguer no mobile */}
       <button
+        aria-label="Menu hambúrguer mobile"
         onClick={() => setIsOpen(!isOpen)}
         className="md:hidden p-2 focus:outline-none -top-10 relative sm:static" 
       >
