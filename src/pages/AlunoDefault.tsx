@@ -49,7 +49,7 @@ export default function AlunoDefault() {
               </div>
 
               {/* Banner */}
-              <div tabindex="0" aria-label="Faça parte do programa de embaixadores da impacta, é gratuito e exclusivo" className="hidden lg:col-span-2 sm:flex justify-center sm:mt-14 lg:justify-start">
+              <div className="hidden lg:col-span-2 sm:flex justify-center sm:mt-14 lg:justify-start">
                 <img
                   src={banner}
                   alt="Faça parte do programa de embaixadores da impacta, é gratuito e exclusivo"
