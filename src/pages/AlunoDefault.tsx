@@ -50,7 +50,7 @@ export default function AlunoDefault() {
 
               {/* Banner */}
               <div className="hidden lg:col-span-2 sm:flex justify-center sm:mt-14 lg:justify-start">
-                <NavLink to="/">
+                <NavLink to="https://lp.saberemrede.net/impacta">
                   <img
                     src={banner}
                     alt="Banner descritivo: Faça parte do programa de embaixadores da impacta, é gratuito e exclusivo"
