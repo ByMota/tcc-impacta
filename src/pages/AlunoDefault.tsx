@@ -53,12 +53,14 @@ export default function AlunoDefault() {
                 <img
                   src={banner}
                   alt="Faça parte do programa de embaixadores da impacta, é gratuito e exclusivo"
+                  tabindex="0"
+                  aria-label="Banner descritivo: Faça parte do programa de embaixadores da impacta, é gratuito e exclusivo"
                   className="max-w-80 md:max-w-xl"
                 />
               </div>
 
               {/* Mais Acessados */}
-              <h3 className="sm:col-span-3 font-bold uppercase text-[#002953] text-xl sm:text-2xl">
+              <h3 className="sm:col-span-3 font-bold uppercase text-[#002953] text-xl sm:text-2xl" aria-label="Lista de mais acessados">
                 Mais acessados
               </h3>
               
