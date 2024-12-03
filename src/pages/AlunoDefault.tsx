@@ -50,11 +50,13 @@ export default function AlunoDefault() {
 
               {/* Banner */}
               <div className="hidden lg:col-span-2 sm:flex justify-center sm:mt-14 lg:justify-start">
-                <img
-                  src={banner}
-                  alt="Faça parte do programa de embaixadores da impacta, é gratuito e exclusivo"
-                  className="max-w-80 md:max-w-xl"
-                />
+                <NavLink to="/">
+                  <img
+                    src={banner}
+                    alt="Banner descritivo: Faça parte do programa de embaixadores da impacta, é gratuito e exclusivo"
+                    className="max-w-80 md:max-w-xl"
+                    />
+                  </NavLink>
               </div>
 
               {/* Mais Acessados */}
