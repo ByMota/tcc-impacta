@@ -53,8 +53,8 @@ export default function AlunoDefault() {
                 <img
                   src={banner}
                   alt="Faça parte do programa de embaixadores da impacta, é gratuito e exclusivo"
-                  tabindex="0"
                   aria-label="Banner descritivo: Faça parte do programa de embaixadores da impacta, é gratuito e exclusivo"
+                  tabIndex="0"
                   className="max-w-80 md:max-w-xl"
                 />
               </div>
