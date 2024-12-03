@@ -60,7 +60,7 @@ export default function AlunoDefault() {
               </div>
 
               {/* Mais Acessados */}
-              <h3 className="sm:col-span-3 font-bold uppercase text-[#002953] text-xl sm:text-2xl">
+              <h3 className="sm:col-span-3 font-bold uppercase text-[#002953] text-xl sm:text-2xl" aria-label="Lista de mais acessados">
                 Mais acessados
               </h3>
               
