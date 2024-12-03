@@ -41,8 +41,8 @@ export function UserInfo(){
       </div>
   	</section>
     <section className="hidden md:flex justify-end gap-2">
-      <Button onClick={increaseFontSize}>A+</Button>
-      <Button onClick={decreaseFontSize}>A-</Button>
+      <Button aria-label="Aumentar fonte" onClick={increaseFontSize}>A+</Button>
+      <Button aria-label="Diminuir fonte" onClick={decreaseFontSize}>A-</Button>
     </section>
   </main>
   )
